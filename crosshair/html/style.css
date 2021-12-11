@@ -1,0 +1,83 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#crosshair {
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+
+#crosshair-ui {
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    width: 30%;
+    height: 35%;
+    border: 6px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    background-color: white;
+}
+
+#crosshair-ui-submit {
+    margin: 0;
+    position: absolute;
+    width: 30%;
+    height: 10%;
+    top: 90%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#crosshair-ui-url {
+    margin: 0;
+    position: absolute;
+    width: 50%;
+    height: 5%;
+    top: 35%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#crosshair-ui-size {
+    margin: 0;
+    position: absolute;
+    width: 50%;
+    height: 5%;
+    top: 65%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+#crosshair-ui-url-title {
+    margin: 0;
+    position: absolute;
+    width: 30%;
+    height: 5%;
+    top: 27.75%;
+    left: 50%;
+    text-align: center;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#crosshair-ui-size-title {
+    margin: 0;
+    position: absolute;
+    width: 30%;
+    height: 5%;
+    top: 57.75%;
+    left: 50%;
+    
+    text-align: center;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#crosshair-ui-title {
+    text-align: center;
+}

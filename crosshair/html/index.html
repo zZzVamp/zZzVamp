@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astroworld Crossshair</title>
+    <link rel="stylesheet" href="style.css"></link>
+    <script src="main.js"></script>
+</head>
+<body>
+    <img id="crosshair" style="display: none";>
+    <div id="crosshair-ui" style="display: none;">
+        <h2 id="crosshair-ui-title">Astroworld Crossshair</h2>
+        <p id="crosshair-ui-url-title">URL Link</p>
+        <input id="crosshair-ui-url" name="url" type="text" placeholder=".gg/awrp">
+        <p id="crosshair-ui-size-title">Size</p>
+        <input id="crosshair-ui-size" name="size" type="text" placeholder="25, 1000, ...">
+        <button id="crosshair-ui-submit" onclick="UpdateCrosshairData()">Save Crosshair</button>
+    </div>
+</body>
+</html>
